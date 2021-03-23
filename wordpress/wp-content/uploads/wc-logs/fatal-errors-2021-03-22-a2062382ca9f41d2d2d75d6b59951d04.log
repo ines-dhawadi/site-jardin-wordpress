@@ -1,0 +1,340 @@
+2021-03-22T13:11:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(11, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:12:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(42, 'Async Request')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/jardin/wordpress/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#15 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:13:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(183, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:13:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(185, 'Async Request')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/jardin/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:15:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(186, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:16:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(187, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:17:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(188, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:19:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(189, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:20:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(190, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:21:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(191, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:23:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(192, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:24:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(193, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:25:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(194, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:27:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(195, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:28:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(196, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:29:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(197, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:31:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(198, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:33:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(199, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:35:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(200, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:37:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(201, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:39:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(202, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
+2021-03-22T13:41:24+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(203, 'WP Cron')
+#5 /opt/lampp/htdocs/jardin/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/jardin/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/jardin/wordpress/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in /opt/lampp/htdocs/jardin/wordpress/wp-includes/class-wp-hook.php on line 292
+
